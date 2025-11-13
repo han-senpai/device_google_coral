@@ -13,6 +13,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
+ALLOW_MISSING_DEPENDENCIES := true
+TARGET_DISABLE_EPPE := true
+BUILD_BROKEN_DUP_RULES := true
+DISABLE_ARTIFACT_PATH_REQUIREMENTS := true
 
 include build/make/target/board/BoardConfigMainlineCommon.mk
 include build/make/target/board/BoardConfigPixelCommon.mk
