@@ -11,6 +11,10 @@ TARGET_KERNEL_CONFIG := floral_defconfig
 TARGET_KERNEL_SOURCE := kernel/google/msm-4.14
 TARGET_NEEDS_DTBOIMAGE := true
 
+# Manifest
+DEVICE_MANIFEST_FILE += device/google/coral/lineage_manifest.xml
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += vendor/infinity/config/device_framework_matrix.xml
+
 # Partitions
 AB_OTA_PARTITIONS += \
     vendor
